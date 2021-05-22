@@ -66,6 +66,7 @@ td {
     text-decoration: none;
 }
 
+
 .top-header .top-left-phone {
     margin-left: 45%;
     color: white;
@@ -128,13 +129,7 @@ margin:6%;
 width: 720px;
 height: 360px;
 }
-.footer{
-    font-family: sans-serif;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 0px;
-    background: #444444;
-}
+
 
 .dropdown {
     float: left;
@@ -207,6 +202,21 @@ height: 360px;
     width: 900px;
     height: 500px;
   }
+
+  .footer{
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: white;
+    background: #414141;    
+  } 
+  .footer:hover{
+    color: blanchedalmond;
+    font-size: 16.5px;
+    transition-duration: 0.2s;
+  }
+  
   
   /*css for manual slide navigation*/
   
@@ -297,9 +307,10 @@ height: 360px;
     line-height: 22px;
     font-family: Assistant, sans-serif;
     color: #444444;
-    float: left;
     width: 48%;
     text-align: justify;
+    display: block;
+    background-color: #f1f1f1;
   }
   .home2{
     font-style: normal;
@@ -307,10 +318,13 @@ height: 360px;
     line-height: 22px;
     font-family: Assistant, sans-serif;
     color: #444444;
-    float: right;
+    margin-left: 500px;
+    margin-top: -840px;
     width: 48%;
     text-align: justify;
+    background-color: #f1f1f1;
   }
   .round{
     border-radius: 100px;
   }
+
